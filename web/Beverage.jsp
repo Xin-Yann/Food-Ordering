@@ -12,7 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <%@include file ="Header.jsp"%>
-        <h1>Hello World!</h1>
+        <div class="overflow-hidden">           
+            <%@include file ="Header.jsp"%>
+            <h1>Hello World!</h1>
+        </div>
     </body>
 </html>
