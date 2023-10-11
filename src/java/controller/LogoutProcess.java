@@ -26,7 +26,7 @@ public class LogoutProcess extends HttpServlet {
             RequestDispatcher req = null;
             HttpSession session = request.getSession();
             session.invalidate();
-            req = request.getRequestDispatcher("index.jsp");
+            req = request.getRequestDispatcher("home.jsp");
             req.forward(request, response);
             
         }
