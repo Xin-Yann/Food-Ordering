@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2023, 12:55:07 AM
+    Author     : user
+*/
+#viewButton{
+    padding: 8px;
+    margin-top: 30px;
+    margin-left: 37%;
+    font-size: 16px;
+    background-color: white;
+    color: dimgray;
+    border: 1px solid black;
+    transition: background-color;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 20px;
+    height: 40px;
+}
+#viewbutton:hover{
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    width: 150px;
+    cursor: pointer;
+}
+#nfMsg{
+    font-family: "Futura PT", sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    padding-left: 8%;
+}
+
+.content h1{
+    line-height: 1.5;
+    padding-left: 10%;
+}
+
+#nft{
+    float: right; 
+    width: 32%;
+    margin-top: -22%;
+    margin-right: 7%;
+}

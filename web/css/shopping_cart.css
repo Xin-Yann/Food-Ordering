@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2023, 11:12:24 PM
+    Author     : user
+*/
+cart-img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 195px;
+}
+
+table.whole{
+    text-align: left;
+    border: 1.3px solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left:2em;
+}
+
+table.amount{
+    border: 1.3px solid black;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left:1.6em;
+    margin-top:2px;
+}
+
+td{
+    text-align: center;
+}
+
+#top_table{
+    background-color: #fa9611;;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    color:white;
+    text-shadow: 1px 1px black;
+}
+
+.final{
+    text-align: right;
+}
+
+td.final1{
+    text-align: right;
+}
+
+#checking table{
+    width: 95%;
+    font-size: 20px;
+    color:black;
+    font-weight:bold;
+}
+
+input#totalPrice, input#checkOut{
+    text-align: left;
+}
+
+.content  h1{
+    padding: 25px;
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Happy Lucky';
+}
+
+
+.button input[type="button"]{
+  background-color: #fa9611;;  
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.button input[type="button"]:hover{
+    background-color: white;
+    color: #C70039;
+}
+
+input[type="submit"]#remove{
+  background-color: #fa9611;;  
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+input[type="submit"]#remove:hover{
+    background-color: white;
+    color: #C70039;
+}
+
+
