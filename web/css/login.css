@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2023, 4:06:01 PM
+    Author     : user
+*/
+
+body {
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, #fff0c7, #c7fff0);
+  filter: brightness(90%);
+  z-index: -1;
+}
+
+.img{
+    border-radius: 20px 0px 0px 20px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    filter: brightness(85%);
+}
+
+.wrap{
+    padding-top:20px;
+}
+
+.login-wrap{
+    background-color: white; 
+    border-radius: 0px 20px 20px 0px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    width: 363px;
+}
+
+.btn-primary{
+    background-image: linear-gradient(90deg, #34d6eb, #f5fc0f);
+    border: none;
+    color: #4a4a49;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn-primary:hover{
+    background-image: linear-gradient(90deg, #fff0c7, #facb11);
+    color: #4a4a49;
+}
