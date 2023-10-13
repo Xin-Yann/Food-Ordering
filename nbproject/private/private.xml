@@ -3,17 +3,44 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/staffFooter.jsp</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/build/generated/src/org/apache/jsp/UpdateProduct_jsp.java</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/home.jsp</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/Order_history.jsp</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/Wallet.jsp</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/Upcoming_order.jsp</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/staff.jsp</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/staffMain.jsp</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/css/bootstrap.min.css</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/UpdateProduct.jsp</file>
-            <file>file:/C:/Users/User/Documents/NetBeansProjects/Food-Ordering/web/customerRecordDisplay.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/css/payment.css</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/staff.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/css/bootstrap.min.css</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/logout.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/CustomerFeedback.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/index.xhtml</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/customerRecordDisplay.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/css/Home.css</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/staffFooter.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/orderConfirmation.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/src/java/controller/LogoutProcess.java</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/UpdateProduct.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/css/displayStaff.css</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/addStaff.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/payment.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/login.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/order.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/profile.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/nullInput.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/home.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/updateStaff.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/inputPaymentInfo.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/custOrderHistory.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/Upcoming_order.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/addProduct.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/css/addStaff.css</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/customerRecordDetails.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/salesRecordView.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/staffHeader.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/searchNotFoundForStaff.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/scss/bootstrap/utilities/_position.scss</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/Beverage.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/customerRecord.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/paymentSuccessful.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/staffMain.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/css/CusFeedback.css</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/salesRecord.jsp</file>
+            <file>file:/C:/Users/user/OneDrive/Documents/NetBeansProjects/Food-Ordering/web/Order_history.jsp</file>
         </group>
     </open-files>
 </project-private>

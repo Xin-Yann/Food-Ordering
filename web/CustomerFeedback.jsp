@@ -1,9 +1,3 @@
-<%-- 
-    Document   : CustomerFeedback
-    Created on : May 6, 2023, 6:35:39 PM
-    Author     : phuah
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@include file ="Header.jsp"%>
 
