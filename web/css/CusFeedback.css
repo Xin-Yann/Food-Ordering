@@ -1,0 +1,25 @@
+#feedback{
+    text-align: left;
+    margin:auto;
+    padding:auto;
+    width:70%;
+    color:white;
+}
+
+#feedback, #feedback tr, #feedback td, #feedback th{
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+textarea{
+    resize:none;
+}
+
+#feedbackForm{
+    margin-top:28px;
+    padding:10px;
+    border:1px solid black;
+    width:400px;
+    background-color: red;
+}
+

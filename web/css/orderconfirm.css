@@ -1,0 +1,152 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 6, 2023, 3:26:19 PM
+    Author     : phuah
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Futura PT", sans-serif;
+    background-image: url('../img/cotton-on-whats-happening.jpg');
+    backgroud-size: cover;
+    background-attachment:fixed;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1250px;
+    height:900px;
+    background-color: #fbfbfb;
+    margin-top: 30px;
+    padding-top: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.section1{
+    width: 60%;
+    margin-left:50px;
+}
+
+h1{
+    
+}
+
+h5{
+    text-align: center;
+    margin-top: -12px;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: grey;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-color: #fbfbfb;
+    width: 90%;
+    position: relative;
+    top: -12px;
+    background-color: #fbfbfb;
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 1px solid red;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.5s
+}
+
+#password:focus{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s
+}
+
+#btn{
+    border: none;
+    background-color: red;
+    width:100px;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+p{
+    font-size: small; 
+    font-weight:bold;
+}
+
+input[type="text"]{
+}
+
+.line{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-top:50px;
+}
+
+h6{
+    position: relative;
+    top: -8px;
+    font-size: 12px;
+}
+
+#btn:hover{
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    color: black;
+    transition: 0.5s
+}
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 150%;
+    color:black;
+    height:60px;
+}
+tr{
+    text-align: center;
+}
+
+#top_table{
+    background-color: red;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.address{
+    text-align: left;
+    font-size: 30px;
+}
+#totalpayment{
+    background-color: transparent;
+    border: 0px solid;
+    color: white;
+}
+
+
+#addressLine, #postcode, #stateSelected{
+    background-color: transparent;
+    color: white;
+}
+
+option{
+    background-color: black;
+    color: white;
+}
