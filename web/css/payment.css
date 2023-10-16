@@ -1,0 +1,329 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Futura PT", sans-serif;
+    background-image: url('../img/cotton-on-whats-happening.jpg');
+    backgroud-size: cover;
+    background-attachment:fixed;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 700px;
+    justify-content: center;
+    align-items: center;
+    height:125em;
+    background-color: #fa9611;
+    margin-top: 30px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+}
+
+.section1{
+    width: 100%;
+    margin-left:7em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #1C1C1C;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+div.CustomerAddress{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url(img/envelope.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+}
+
+h2{
+
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+div.Details{
+    margin-left: 60px;
+    font-size: 13px;
+    font-style: italic;
+    color: black;
+    align-items: center;
+    padding-top:30px; 
+}
+
+div.ShippingAddressOption{
+    margin-left: 20px;
+}
+
+form.StandardShipping{
+    border-color: white;
+    border-style: solid solid;
+    height: 50%;
+    width: 40%;
+}
+
+button.cashBtn{
+    margin-left: 20px;
+    text-align: left;
+    size: 50%;
+}
+
+div.orderSummary button.a{
+    font-family: "Futura PT", sans-serif;
+    background: #262626;
+    width:70%;
+    height:40%;
+    position:relative;
+    margin-left:30px;
+}
+
+div.orderSummary.button.a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+div.orderSummary.button.a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #03a9f4;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: bottom right;
+    transform: scale(0);
+}
+
+div.orderSummary.button.a:hover:before{
+    transition: transform 0.5s;
+    transform-origin: top left;
+    transform: scale(1);
+}
+
+div.orderSummary.button.a:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: top left;
+    transform: scale(1);
+}
+
+div.orderSummary.button.a:hover:after{
+    transition: transform 0.5s;
+    transform-origin: bottom right;
+    transform: scale(0);
+}
+
+.btn {
+    background-color: #E74C3C;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #F1948A;
+}
+
+input[type="radio"]{
+    position: relative;
+}
+
+@media (max-width: 1200px) {
+  h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw) ;
+  }
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+@media (max-width: 1200px) {
+  h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw) ;
+  }
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+@media (max-width: 1200px) {
+  h3, .h3 {
+    font-size: calc(1.3rem + 0.6vw) ;
+  }
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw) ;
+  }
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+h5{
+    text-align: center;
+    margin-top: -12px;
+}
+
+label{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: grey;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    background-color: #fbfbfb;
+    width: 90%;
+    position: relative;
+    top: -12px;
+    background-color: #fbfbfb;
+    padding: 5px;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 1px solid red;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.5s
+}
+
+#password:focus{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.5s
+}
+
+#btn{
+    border: none;
+    background-color: red;
+    width:100px;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+p{
+    font-size: small; 
+    font-weight:bold;
+}
+
+input[type="text"]{
+}
+
+.line{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    margin-top:50px;
+}
+
+h6{
+    position: relative;
+    top: -8px;
+    font-size: 12px;
+}
+
+#btn:hover{
+    box-shadow: 0 0 10px black;
+    background-color: white;
+    color: black;
+    transition: 0.5s
+}
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 150%;
+    color:black;
+    height:60px;
+}
+tr{
+    text-align: center;
+}
+
+#top_table{
+    background-color: red;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.address{
+    text-align: left;
+    font-size: 30px;
+}
+#totalpayment{
+    background-color: transparent;
+    border: 0px solid;
+    color: white;
+}
+
+
+#addressLine, #postcode, #stateSelected{
+    background-color: transparent;
+    color: white;
+}
+
+option{
+    background-color: black;
+    color: white;
+}
